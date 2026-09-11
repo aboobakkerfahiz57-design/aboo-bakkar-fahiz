@@ -1128,6 +1128,77 @@ img{
     color:var(--gold);
 }
 
+/* =====================================================
+   VISION — SECTION 08 ONLY
+   Enlarged and vertically balanced like DIGITAL WORK
+===================================================== */
+
+.vision-copy{
+    align-self:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    min-height:560px;
+
+    padding:10px 0;
+}
+
+.vision-copy .quote{
+    max-width:720px;
+
+    color:#eeeeeb;
+
+    font-size:
+        clamp(
+            40px,
+            5.2vw,
+            72px
+        );
+
+    line-height:.98;
+
+    letter-spacing:-.055em;
+
+    margin-bottom:0;
+}
+
+.vision-copy .quote span{
+    color:var(--gold);
+}
+
+.vision-copy > p:not(.quote){
+    max-width:650px;
+
+    margin-top:30px;
+
+    margin-bottom:0;
+
+    color:#aaa69f;
+
+    font-size:
+        clamp(
+            16px,
+            1.35vw,
+            18px
+        );
+
+    line-height:1.65;
+
+    letter-spacing:-.01em;
+}
+
+.vision-copy .signature{
+    margin-top:28px;
+
+    font-size:11px;
+
+    letter-spacing:.16em;
+}
+
 /* CONTACT */
 
 .contact-box{
@@ -1470,6 +1541,22 @@ footer{
         order:initial;
     }
 
+    /* Vision stays visually strong on tablet */
+    .vision-copy{
+        min-height:auto;
+
+        padding:10px 0;
+    }
+
+    .vision-copy .quote{
+        font-size:
+            clamp(
+                38px,
+                6vw,
+                64px
+            );
+    }
+
 }
 
 /* MOBILE */
@@ -1561,6 +1648,40 @@ footer{
 
     .quote{
         font-size:39px;
+    }
+
+    /* Vision mobile sizing */
+    .vision-copy{
+        min-height:auto;
+
+        padding:0;
+    }
+
+    .vision-copy .quote{
+        font-size:
+            clamp(
+                38px,
+                11vw,
+                52px
+            );
+
+        line-height:.98;
+
+        letter-spacing:-.055em;
+    }
+
+    .vision-copy > p:not(.quote){
+        margin-top:25px;
+
+        font-size:15px;
+
+        line-height:1.65;
+    }
+
+    .vision-copy .signature{
+        margin-top:25px;
+
+        font-size:10px;
     }
 
     .contact-box{
@@ -1708,7 +1829,7 @@ footer{
     </nav>
 
     <button class="nav-cta" id="resumeTop">
-        Resume ↗
+        Resume ↗️
     </button>
 
     <button class="menu" id="menuBtn">
@@ -1771,7 +1892,7 @@ footer{
                     class="btn"
                     id="resumeHero"
                 >
-                    View + Download Resume ↗
+                    View + Download Resume ↗️
                 </button>
 
 
@@ -1781,7 +1902,7 @@ footer{
                     target="_blank"
                     rel="noopener"
                 >
-                    WhatsApp ↗
+                    WhatsApp ↗️
                 </a>
 
             </div>
@@ -2852,7 +2973,6 @@ footer{
 
             </div>
 
-
         </div>
 
     </div>
@@ -2990,7 +3110,7 @@ footer{
                 target="_blank"
                 rel="noopener"
             >
-                Instagram ↗
+                Instagram ↗️
             </a>
 
 
@@ -3000,7 +3120,7 @@ footer{
                 target="_blank"
                 rel="noopener"
             >
-                LinkedIn ↗
+                LinkedIn ↗️
             </a>
 
 
@@ -3074,7 +3194,8 @@ footer{
     </div>
 
 
-    <div class="copy reveal">
+    <!-- ONLY THIS COPY CLASS WAS CHANGED -->
+    <div class="copy reveal vision-copy">
 
 
         <p class="quote">
@@ -3092,7 +3213,7 @@ footer{
         </p>
 
 
-        <p style="margin-top:28px">
+        <p>
 
             My vision is to keep building —
             stronger businesses, better digital
@@ -3173,7 +3294,7 @@ footer{
             class="btn primary"
             href="mailto:aboobakkerfahiz6@gmail.com?subject=Professional%20Enquiry%20for%20Aboobakkar%20Fahiz"
         >
-            Email Me ↗
+            Email Me ↗️
         </a>
 
 
@@ -3183,7 +3304,7 @@ footer{
             target="_blank"
             rel="noopener"
         >
-            WhatsApp ↗
+            WhatsApp ↗️
         </a>
 
 
@@ -3191,7 +3312,7 @@ footer{
             class="btn"
             id="resumeContact"
         >
-            View + Download Resume ↗
+            View + Download Resume ↗️
         </button>
 
 
@@ -3256,7 +3377,7 @@ footer{
             Instagram
         </span>
 
-        @fahiz.official ↗
+        @fahiz.official ↗️
 
     </a>
 
@@ -3272,7 +3393,7 @@ footer{
             LinkedIn
         </span>
 
-        ABOOBAKKAR FAHIZ ↗
+        ABOOBAKKAR FAHIZ ↗️
 
     </a>
 
@@ -3309,7 +3430,7 @@ footer{
 <div class="footer-in">
 
     <div>
-        © <span id="year"></span>
+        ©️ <span id="year"></span>
         ABOOBAKKAR FAHIZ
     </div>
 
@@ -3475,7 +3596,7 @@ footer{
     class="btn primary"
     id="printResume"
 >
-    Print / Save as PDF ↗
+    Print / Save as PDF ↗️
 </button>
 
 
